@@ -1,0 +1,270 @@
+body{
+    font-family: system-ui,  'Segoe UI', "Roboto", 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+ @media(max-width: 450px){
+   #maindiv{
+    background-image: url(background1..jpg), linear-gradient(to bottom, rgba(59, 59, 59, 0.299), rgb(0, 0, 0));
+    background-blend-mode: overlay;
+    height: 100vh;
+    width: 100%;
+ }
+ }
+ 
+@media(min-width: 1200px){
+ #maindiv{
+    background-image: url(background1..jpg), linear-gradient(to bottom, rgba(59, 59, 59, 0.299), rgb(0, 0, 0));
+    background-blend-mode: overlay;
+    height: 100vh;
+    width: 100%;
+ }
+ #navbar{
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: #c4c4c42d;
+    display: flex;
+    backdrop-filter: blur(8px);
+    padding: 0;
+    margin: 0;
+ }
+ a{
+   text-decoration: none;
+   color: white;
+   display: block;
+ }
+ #logo{
+    height: 60px;
+    width: 140px;
+    margin-top: 10px;
+    margin-left: 10%;
+ }  
+ .navitem{
+   text-decoration: none;
+   padding-left: 35px;
+   color: white;
+   font-size: 28px;
+   padding-top: 22px;
+   display: inline;
+ }
+.searchbox{
+   height: 50px;
+   width: 370px;
+   color: rgb(0, 0, 0);
+   background-color: rgba(255, 255, 255, 0.785);
+   border: none;
+   border-radius: 8px 0 0 8px;
+   padding-left: 10px;
+   font-size: 18px;
+}
+#maintext{
+   text-align: center;
+   color: white;
+   font-weight: 700;
+   font-size: 28px;
+   padding-top: 110px;
+}
+.search{
+   padding-top: 8px;
+   height: 35px;
+   width: 40px;
+   fill: rgb(255, 255, 255);
+}
+#trending{
+   margin-top: 30px;
+   margin-left: 50px;
+}
+.trends{
+   display: flex;
+   margin-top: 40px;
+   margin-left: 2%;
+   gap: 58px;
+   /* overflow: auto; */
+   margin-bottom: 30px;
+   
+}
+.trends::-webkit-scrollbar{
+   height: 4px;
+   
+}
+.trends::-webkit-scrollbar-track{
+   background-color: rgba(255, 255, 255, 0.133);
+   border-radius: 5px;
+   
+}
+.trends::-webkit-scrollbar-thumb{
+   background-color: #e50000;
+   border-radius: 5px;
+}  
+#replace{
+   position: absolute;
+}
+.movies{
+   display: inline;
+   height: 320px;
+   width: 230px;
+   border-radius: 8px;
+   /* position: absolute; */
+}
+.movie-name{
+   color: white;
+   font-size: 20px;
+   font-weight: 500;
+   padding-top: 340px;
+   /* transition:  0.3s ease; */
+}
+.movie-div1:hover .movie-name,
+.movie-div2:hover .movie-name,
+.movie-div3:hover .movie-name,
+.movie-div4:hover .movie-name,
+.movie-div5:hover .movie-name,
+.movie-div6:hover .movie-name,
+.movie-div7:hover .movie-name,
+.movie-div8:hover .movie-name,
+.movie-div9:hover .movie-name,
+.movie-div10:hover .movie-name {
+   padding-top: 140px;
+}
+
+.movie-div1{
+   background-image: url(dragon.jpg);
+   height: 330px;
+   width: 250px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div2{
+  background-image: url(fantastic.4.webp);
+   height: 330px;
+   width: 250px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div3{
+    background-image: url(superman.webp  );
+   height: 330px;
+   width: 250px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div4{
+    background-image: url(f1.webp);
+   height: 330px;
+   width: 250px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div5{
+    background-image: url(happy.webp);
+   height: 330px;
+   width: 250px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div6{
+    background-image: url(jaat.jpg);
+   height: 330px;
+   width: 250px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div7{
+    background-image: url(kesari2.jpg);
+   height: 330px;
+   width: 250px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div8{
+    background-image: url(saiyara.jpg);
+   height: 330px;
+   width: 250px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div9{
+    background-image: url(sultan.jpg);
+   height: 330px;
+   width: 250px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div10{
+    background-image: url(sky.jpg);
+   height: 330px;
+   width: 250px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div1:hover{
+    background-image: url(dragon.jpg), linear-gradient(to bottom, rgba(59, 59, 59, 0.299), rgba(0, 0, 0, 0.76));
+    background-blend-mode: overlay;
+}
+.movie-div2:hover {
+    background-image: url(fantastic.4.webp), linear-gradient(to bottom, rgba(59, 59, 59, 0.299), rgba(0, 0, 0, 0.76));
+    background-blend-mode: overlay;
+}
+.movie-div3:hover {
+    background-image: url(superman.webp), linear-gradient(to bottom, rgba(59, 59, 59, 0.299), rgba(0, 0, 0, 0.76));
+    background-blend-mode: overlay;
+}
+.movie-div4:hover {
+    background-image: url(f1.webp), linear-gradient(to bottom, rgba(59, 59, 59, 0.299), rgba(0, 0, 0, 0.76));
+    background-blend-mode: overlay;
+}
+.movie-div5:hover {
+    background-image: url(happy.webp), linear-gradient(to bottom, rgba(59, 59, 59, 0.299), rgba(0, 0, 0, 0.76));
+    background-blend-mode: overlay;
+}
+.movie-div6:hover {
+    background-image: url(jaat.jpg), linear-gradient(to bottom, rgba(59, 59, 59, 0.299), rgba(0, 0, 0, 0.76));
+    background-blend-mode: overlay;
+}
+.movie-div7:hover {
+    background-image: url(kesari2.jpg), linear-gradient(to bottom, rgba(59, 59, 59, 0.299), rgba(0, 0, 0, 0.76));
+    background-blend-mode: overlay;
+}
+.movie-div8:hover {
+    background-image: url(saiyara.jpg), linear-gradient(to bottom, rgba(59, 59, 59, 0.299), rgba(0, 0, 0, 0.76));
+    background-blend-mode: overlay;
+}
+.movie-div9:hover {
+    background-image: url(sultan.jpg), linear-gradient(to bottom, rgba(59, 59, 59, 0.299), rgba(0, 0, 0, 0.76));
+    background-blend-mode: overlay;
+}
+.movie-div10:hover {
+   background-image: url(sky.jpg), linear-gradient(to bottom, rgba(59, 59, 59, 0.299), rgba(0, 0, 0, 0.76));
+    background-blend-mode: overlay;
+}
+.play{
+   padding-top: 110px;
+   padding-left: 90px;
+   display: none;
+}
+/* Show .play when its parent (e.g., .movie-div1, .movie-div2, .movie-div3) is hovered */
+.movie-div1:hover .play,
+.movie-div2:hover .play,
+.movie-div3:hover .play,
+.movie-div4:hover .play,
+.movie-div5:hover .play,
+.movie-div6:hover .play,
+.movie-div7:hover .play,
+.movie-div8:hover .play,
+.movie-div9:hover .play,
+.movie-div10:hover .play{
+   display: block;
+}
+}
