@@ -4,16 +4,244 @@ body{
     margin: 0;
     background-color: black;
 }
- @media(max-width: 450px){
-   #maindiv{
-    background-image: url(background1..jpg), linear-gradient(to bottom, rgba(59, 59, 59, 0.299), rgb(0, 0, 0));
-    background-blend-mode: overlay;
-    height: 100vh;
+
+ @media(max-width: 650px){
+   #maindiv {
+      background-image: url(f1.webp), linear-gradient(to bottom, rgba(59, 59, 59, 0.299), rgb(0, 0, 0));
+      background-blend-mode: overlay;
+      height: 80vh;
+      width: 100vw;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+   }
+ #navbar{
+    height: 60px;
     width: 100%;
+    position: sticky;
+    top: 0;
+    background: #c4c4c42d;
+    display: flex;
+    backdrop-filter: blur(8px);
+    /* padding: 0;
+    margin: 0; */
  }
+ .mininav{
+   display: flex;
+   fill: white;
  }
- 
-@media(min-width: 1200px){
+ .button1{
+   background-color: transparent;
+   border: none;
+   margin-left: 210px;
+ }
+ a{
+   text-decoration: none;
+   color: white;
+   display: block;
+ }
+ #logo{
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 7%;
+ }  
+ .navitem{
+   text-decoration: none;
+   padding-left: 35px;
+   color: white;
+   font-size: 28px;
+   padding-top: 22px;
+   display: inline;
+   display: none;
+ }
+ #searchbox{
+   display: flex;
+   margin-left: 7%;
+   margin-top: 20px;
+ }
+.searchbox{
+   height: 40px;
+   width: 270px;
+   color: rgb(255, 0, 0);
+   background-color: rgba(255, 255, 255, 0.79);
+   backdrop-filter: blur(8px);
+   border: none;
+   border-radius: 8px 0 0 8px;
+   padding-left: 15px;
+   font-size: 18px;
+}
+#search-div{
+   background-color: #e50000;
+    border-radius: 0 8px 8px 0 ;
+     width: 60px;
+}
+#maintext{
+   text-align: center;
+   color: white;
+   font-weight: 500;
+   font-size: 18px;
+   padding-top: 120px;
+   line-height: 50px;
+}
+.search{
+   padding-top: 6px;
+   padding-left: 10px;
+   height: 30px;
+   width: 35px;
+   fill: rgb(255, 255, 255);
+}
+#trending{
+   margin-top: 30px;
+   margin-left: 50px;
+}
+.trends{
+   display: flex;
+   margin-top: 40px;
+   margin-left: 2%;
+   gap: 58px;
+   overflow: auto;
+   margin-bottom: 30px;
+   
+}
+.trends::-webkit-scrollbar{
+   height: 4px;
+   
+}
+.trends::-webkit-scrollbar-track{
+   background-color: rgba(255, 255, 255, 0.133);
+   border-radius: 5px;
+   
+}
+.trends::-webkit-scrollbar-thumb{
+   background-color: #e50000;
+   border-radius: 5px;
+}  
+#replace{
+   position: absolute;
+}
+.movies{
+   display: inline;
+   height: 320px;
+   width: 230px;
+   border-radius: 8px;
+   /* position: absolute; */
+}
+.movie-name{
+   color: white;
+   font-size: 20px;
+   font-weight: 500;
+   padding-top: 160px;
+   /* transition:  0.3s ease; */
+}
+.movie-div1:hover .movie-name,
+.movie-div2:hover .movie-name,
+.movie-div3:hover .movie-name,
+.movie-div4:hover .movie-name,
+.movie-div5:hover .movie-name,
+.movie-div6:hover .movie-name,
+.movie-div7:hover .movie-name,
+.movie-div8:hover .movie-name,
+.movie-div9:hover .movie-name,
+.movie-div10:hover .movie-name {
+   padding-top: 140px;
+}
+.movie-div1{
+   background-image: url(dragon.jpg);
+   height: 250px;
+   width: 900px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div2{
+  background-image: url(fantastic.4.webp);
+   height: 330px;
+   width: 250px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div3{
+    background-image: url(superman.webp  );
+   height: 330px;
+   width: 250px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div4{
+    background-image: url(f1.webp);
+   height: 330px;
+   width: 250px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div5{
+    background-image: url(happy.webp);
+   height: 330px;
+   width: 250px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div6{
+    background-image: url(jaat.jpg);
+   height: 330px;
+   width: 250px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div7{
+    background-image: url(kesari2.jpg);
+   height: 330px;
+   width: 250px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div8{
+    background-image: url(saiyara.jpg);
+   height: 330px;
+   width: 250px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div9{
+    background-image: url(sultan.jpg);
+   height: 330px;
+   width: 250px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+.movie-div10{
+    background-image: url(sky.jpg);
+   height: 330px;
+   width: 250px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 8px;
+}
+ #trending-text{
+   font-size: 32px;
+   font-weight: 700;
+   color: white;
+   padding-left: 0px;
+   padding-top: 0px;
+ }
+ #hollywood{
+   font-size: 29px;
+   font-weight: 700;
+   color: #e50000;
+   padding-left: 19px;
+   padding-top: 18px;
+ }
+}
+@media(min-width: 1080px){
  #maindiv{
     background-image: url(background1..jpg), linear-gradient(to bottom, rgba(59, 59, 59, 0.299), rgb(0, 0, 0));
     background-blend-mode: overlay;
@@ -30,6 +258,12 @@ body{
     backdrop-filter: blur(8px);
     padding: 0;
     margin: 0;
+ }
+ .button1{
+   display: none;
+ }
+ .mininav{
+   display: none;
  }
  a{
    text-decoration: none;
@@ -50,6 +284,10 @@ body{
    padding-top: 22px;
    display: inline;
  }
+ #searchbox{
+   display: flex;
+   margin-left: 35%;
+ }
 .searchbox{
    height: 50px;
    width: 370px;
@@ -59,6 +297,11 @@ body{
    border-radius: 8px 0 0 8px;
    padding-left: 10px;
    font-size: 18px;
+}
+#search-div{
+   background-color: #e50000;
+    border-radius: 0 8px 8px 0 ;
+     width: 80px;
 }
 #maintext{
    text-align: center;
@@ -133,7 +376,7 @@ body{
    background-image: url(dragon.jpg);
    height: 330px;
    width: 250px;
-   background-size: contain;
+   background-size: cover;
    background-repeat: no-repeat;
    border-radius: 8px;
 }
@@ -141,7 +384,7 @@ body{
   background-image: url(fantastic.4.webp);
    height: 330px;
    width: 250px;
-   background-size: contain;
+   background-size: cover;
    background-repeat: no-repeat;
    border-radius: 8px;
 }
@@ -149,7 +392,7 @@ body{
     background-image: url(superman.webp  );
    height: 330px;
    width: 250px;
-   background-size: contain;
+   background-size: cover;
    background-repeat: no-repeat;
    border-radius: 8px;
 }
@@ -157,7 +400,7 @@ body{
     background-image: url(f1.webp);
    height: 330px;
    width: 250px;
-   background-size: contain;
+   background-size: cover;
    background-repeat: no-repeat;
    border-radius: 8px;
 }
@@ -165,7 +408,7 @@ body{
     background-image: url(happy.webp);
    height: 330px;
    width: 250px;
-   background-size: contain;
+   background-size: cover;
    background-repeat: no-repeat;
    border-radius: 8px;
 }
@@ -173,7 +416,7 @@ body{
     background-image: url(jaat.jpg);
    height: 330px;
    width: 250px;
-   background-size: contain;
+   background-size: cover;
    background-repeat: no-repeat;
    border-radius: 8px;
 }
@@ -181,7 +424,7 @@ body{
     background-image: url(kesari2.jpg);
    height: 330px;
    width: 250px;
-   background-size: contain;
+   background-size: cover;
    background-repeat: no-repeat;
    border-radius: 8px;
 }
@@ -191,13 +434,13 @@ body{
    width: 250px;
    background-size: contain;
    background-repeat: no-repeat;
-   border-radius: 8px;
+   border-radius: 8px 8px;
 }
 .movie-div9{
     background-image: url(sultan.jpg);
    height: 330px;
    width: 250px;
-   background-size: contain;
+   background-size: cover;
    background-repeat: no-repeat;
    border-radius: 8px;
 }
@@ -205,7 +448,7 @@ body{
     background-image: url(sky.jpg);
    height: 330px;
    width: 250px;
-   background-size: contain;
+   background-size: cover;
    background-repeat: no-repeat;
    border-radius: 8px;
 }
@@ -254,7 +497,6 @@ body{
    padding-left: 90px;
    display: none;
 }
-/* Show .play when its parent (e.g., .movie-div1, .movie-div2, .movie-div3) is hovered */
 .movie-div1:hover .play,
 .movie-div2:hover .play,
 .movie-div3:hover .play,
@@ -267,4 +509,18 @@ body{
 .movie-div10:hover .play{
    display: block;
 }
+ #trending-text{
+   font-size: 39px;
+   font-weight: 700;
+   color: white;
+   padding-left: 10px;
+   padding-top: 10px;
+ }
+ #hollywood{
+   font-size: 39px;
+   font-weight: 700;
+   color: #e50000;
+   padding-left: 10px;
+   padding-top: 10px;
+ }
 }
